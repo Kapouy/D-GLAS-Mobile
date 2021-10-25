@@ -1,0 +1,10 @@
+
+Install by https://angular.io/guide/setup-local
+-> Installation de Node.js
+-> npm install -g @angular/cli
+-> npm install -g typescript
+creation d'un nouveau projet
+-> ng new D-GLAS-Mobile
+-> cd D-GLAS-Mobile
+test que ça fonctionne bien
+-> ng serve --open 
