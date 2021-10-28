@@ -1,0 +1,17 @@
+<p>hello world</p>
+voici une liste de bonhomme :
+<div *ngFor="let agent of agents">
+    <h3>
+        <a [title]="'Pseudo: '+ agent.pseudo">
+            {{agent.nom}} {{agent.prenom}}
+        </a>
+    </h3> 
+    // fait pour chaque agent correspondant à la condition
+    <p *ngIf="agent.responsability">
+        {{agent.responsability}}
+    </p>
+
+    <button (click)="ma_fonction()">
+        Bouton
+    </button>
+</div>
